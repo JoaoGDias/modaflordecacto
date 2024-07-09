@@ -1,0 +1,12 @@
+### npm e composer ###
+/assets
+/node_modules
+.cache
+gulpfile.js
+package.json
+yarn.lock
+
+### files to kee###
+!/vendor/
+!/dist/
+!README.md

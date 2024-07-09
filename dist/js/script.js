@@ -1,0 +1,2 @@
+document.addEventListener("DOMContentLoaded",(function(e){console.log("Document is ready!"),showHeader=document.querySelector(".actMobMeunu"),menuList=document.querySelector(".menuList"),showHeader.addEventListener("click",(function(){showHeader.children[0].classList.toggle("show"),showHeader.children[1].classList.toggle("show"),menuList.classList.toggle("active")}))}));
+//# sourceMappingURL=script.js.map
