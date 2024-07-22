@@ -10,7 +10,7 @@
     <!-- CSS Slider -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <!-- CSS File -->
-    <link rel="stylesheet" href="./dist/css/style.css?cb=1721682708351">
+    <link rel="stylesheet" href="./dist/css/style.css?cb=1721509183431">
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="./dist/img/favicon-32x32.png" sizes="32x32" />
   </head>
@@ -47,28 +47,53 @@
         </nav>
       </div>
     </header>
-
-    <main class="banner">
-        <div class="banner__txt">
-            <p>Novidades chegando...</p>
-            <h1>Um inverno com muita elegância</h1>
-            <a href="#" class="btn">saiba mais</a>
-        </div>
-
-        <img src="./dist/img/banner-img.png" alt="Um inverno com muita elegância">
-    </main>
-
-    <div class="buyInfos">
-        <ul class=" ">
-            <li><img src="./dist/img/frete.png" alt="Frete Grátis"><p><strong>Frete Grátis</strong>Para compras acima de R$ 200,00</p></li>
-            <li><img src="./dist/img/credit-card.png" alt="Tudo em até 3 vezes"><p><strong>Tudo em até 3X</strong>Parcele em até 3 X sem juros</p></li>
-            <li><img src="./dist/img/seguranca.png" alt="Compra Segura"><p><strong>Compra Segura</strong>Você está em boas mãos</p></li>
-        </ul>
-    </div>
-
+    <br /><br />
     <div class="container">
-        <h3 class="title">Olha essas peças novas!</h3>
-        <p class="sub-title">Olha só as últimas peças que a gente trouxe especialmente para vocês, vários looks para passar um inverno com muita elegância.</p>
+        <section class="productInfos">
+            <div class="productInfos__img">
+                <div class="miniature">
+                    <img src="./dist/img/produto-1.png" class="miniature__item miniature-1" alt="">
+                    <img src="./dist/img/produto-1.png" class="miniature__item miniature-2" alt="">
+                    <img src="./dist/img/produto-1.png" class="miniature__item miniature-3" alt="">
+                </div>
+                <img src="./dist/img/produto-1.png" class="main" alt="">
+            </div>
+
+            <div class="productInfos__txt">
+                <h2>Glamourus collection</h2>
+                <p class="price">R$ 129,90</p>
+
+                <p class="description">Donec quam felis, ultricies nec, and pellentesque eu, pretium quis, sem. penatibus et magnis dis parturient montes, nascetur ridiculus mus. commodo ligula eget dolor. Aenean massa.</p>
+
+                <div class="categs">
+                    <strong>Categorias</strong>: 
+                    <ul>
+                        <li><a href="#">Art</a></li>
+                        <li><a href="#">Fashion</a></li>
+                        <li><a href="#">Lifestyle</a></li>
+                    </ul>
+                </div>
+                <div class="tags">
+                    <strong>Tags</strong>: 
+                    <ul>
+                        <li><a href="#">Urban fashion</a></li>
+                        <li><a href="#">Work fashion</a></li>
+                    </ul>
+                </div>
+                <div class="btnProduct">
+                    <div class="btnProduct__qtd">
+                        <button>-</button>
+                        <input type="number" value="1">
+                        <button>+</button>
+                    </div>
+                    <button type="button">Adicionar ao carrinho <i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                </div>
+            </div>
+        </section>
+
+        <br /><br />
+
+        <h3 class="title">Confira também essas peças</h3><br />
         
         <section class="release">
             <div class="productCard">
@@ -133,109 +158,7 @@
             </div>
         </section>
 
-        <a href="#" class="btn blog__btn">Ver mais</a>
-
-
-        <h3 class="title">As mais procuradas do mês</h3>
-        <p class="sub-title">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea beatae fugit similique doloribus, reiciendis alias facilis veritatis eum</p>
-        
-        <section class="release">
-            <div class="productCard">
-                <div class="productCard__info">
-                    <a href="./produto.html" class="img">
-                        <img src="./dist/img/produto-1.png" alt="">
-                    </a>
-                    <span>Calça</span>
-                    <div class="btnsControl">
-                        <a href="#" class="btnBuy">Adicionar ao Carrinho <i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
-                        <a href="#" class="btnFav"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
-                        <a href="./produto.html" class="btnView"><i class="fa fa-eye" aria-hidden="true"></i></a>
-                    </div>
-                </div>
-                <h3><a href="./produto.html">Glamourus collection</a></h3>
-                <p>R$ 129,90</p>
-            </div>
-            <div class="productCard">
-                <div class="productCard__info">
-                    <a href="./produto.html" class="img">
-                        <img src="./dist/img/produto-2.png" alt="">
-                    </a>
-                    <span>Calça</span>
-                    <div class="btnsControl">
-                        <a href="#" class="btnBuy">Adicionar ao Carrinho <i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
-                        <a href="#" class="btnFav"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
-                        <a href="./produto.html" class="btnView"><i class="fa fa-eye" aria-hidden="true"></i></a>
-                    </div>
-                </div>
-                <h3><a href="./produto.html">Glamourus collection</a></h3>
-                <p>R$ 129,90</p>
-            </div>
-            <div class="productCard">
-                <div class="productCard__info">
-                    <a href="./produto.html" class="img">
-                        <img src="./dist/img/produto-3.png" alt="">
-                    </a>
-                    <span>Vestido</span>
-                    <div class="btnsControl">
-                        <a href="#" class="btnBuy">Adicionar ao Carrinho <i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
-                        <a href="#" class="btnFav"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
-                        <a href="./produto.html" class="btnView"><i class="fa fa-eye" aria-hidden="true"></i></a>
-                    </div>
-                </div>
-                <h3><a href="./produto.html">Glamourus collection</a></h3>
-                <p>R$ 129,90</p>
-            </div>
-            <div class="productCard">
-                <div class="productCard__info">
-                    <a href="./produto.html" class="img">
-                        <img src="./dist/img/produto-4.png" alt="">
-                    </a>
-                    <span>Blusa</span>
-                    <div class="btnsControl">
-                        <a href="#" class="btnBuy">Adicionar ao Carrinho <i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
-                        <a href="#" class="btnFav"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
-                        <a href="./produto.html" class="btnView"><i class="fa fa-eye" aria-hidden="true"></i></a>
-                    </div>
-                </div>
-                <h3><a href="./produto.html">Glamourus collection</a></h3>
-                <p>R$ 129,90</p>
-            </div>
-        </section>
-
-        <a href="#" class="btn blog__btn">Ver mais</a>
-
-
-        <h3 class="title">Confira nossos últimos posts</h3>
-        <p class="sub-title">Abaixo nossos posts mais recentes, e não esquece de se inscrever na newsletter para ficar por dentro de todas as novidades!</p>
-        
-        <section class="blog">
-            <div class="blog__post">
-                <a href="#" class="blog__post-img">
-                    <strong>10<span>Jun</span></strong>
-                    <img src="./dist/img/blog-post-1.jpg" alt="">
-                </a>
-                <h2><a href="#">Vamos aprender a combinar cores em um look?</a></h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et ...</p>
-            </div>
-            <div class="blog__post">
-                <a href="#" class="blog__post-img">
-                    <strong>10<span>Jun</span></strong>
-                    <img src="./dist/img/blog-post-2.jpg" alt="">
-                </a>
-                <h2><a href="#">Tendências para  2024: Marrom, o novo preto !</a></h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et ...</p>
-            </div>
-            <div class="blog__post">
-                <a href="#" class="blog__post-img">
-                    <strong>10<span>Jun</span></strong>
-                    <img src="./dist/img/blog-post-3.webp" alt="">
-                </a>
-                <h2><a href="#">7 dicas de brincos para cada tipo de penteado</a></h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et ...</p>
-            </div>
-        </section>
-
-        <a href="#" class="btn blog__btn">Ver mais</a>
+        <br /><br />
     </div>
 
     <footer>
