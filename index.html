@@ -10,42 +10,41 @@
     <!-- CSS Slider -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <!-- CSS File -->
-    <link rel="stylesheet" href="./dist/css/style.css?cb=1721689456133">
+    <link rel="stylesheet" href="./dist/css/style.css?cb=1721769514989">
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="./dist/img/favicon-32x32.png" sizes="32x32" />
   </head>
   <body>
     <header class="header">
-      <div class="container">
-        <nav>
-            <a href="/modaflordecacto" class="logo">
-                <img src="./dist/img/logo-flor-de-cacto.png" alt="logo flor de cacto"/>
-            </a>
-            <ul class="menuList">
-                <li><a href="#" class="active">Início</a></li>
-                <li><a href="#">A Flor de Cacto</a></li>
-                <li><a href="#">Roupas</a></li>
-                <li><a href="#">Acessórios</a></li>
-                <li><a href="./blog.html">Blog</a></li>
-                <li><a href="#"><i class="fa fa-user" aria-hidden="true"></i></a></li>
-                
-            </ul>
-
-            <div class="userActions">
-                <a href="#">
-                    <i class="fa fa-user" aria-hidden="true"></i>
+        <div class="container">
+            <nav>
+                <a href="/modaflordecacto" class="logo">
+                    <img src="./dist/img/logo-flor-de-cacto.png" alt="logo flor de cacto"/>
                 </a>
-                <a href="#">
-                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                </a>
-            </div>
+                <ul class="menuList">
+                    <li><a href="#" class="active">Início</a></li>
+                    <li><a href="#">A Flor de Cacto</a></li>
+                    <li><a href="#">Roupas</a></li>
+                    <li><a href="#">Acessórios</a></li>
+                    <li><a href="./blog.html">Blog</a></li>
+                    <li><a href="#"><i class="fa fa-user" aria-hidden="true"></i></a></li>
+                </ul>
 
-            <a href="#" class="actMobMeunu mobMenu">
-                <i class="fa fa-bars show" aria-hidden="true"></i>
-                <i class="fa fa-times" aria-hidden="true"></i>
-            </a>
-        </nav>
-      </div>
+                <div class="userActions">
+                    <a href="#">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                    </a>
+                </div>
+
+                <a href="#" class="actMobMeunu mobMenu">
+                    <i class="fa fa-bars show" aria-hidden="true"></i>
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                </a>
+            </nav>
+        </div>
     </header>
 
     <main class="banner">
@@ -70,67 +69,73 @@
         <h3 class="title">Olha essas peças novas!</h3>
         <p class="sub-title">Olha só as últimas peças que a gente trouxe especialmente para vocês, vários looks para passar um inverno com muita elegância.</p>
         
-        <section class="release">
-            <div class="productCard">
-                <div class="productCard__info">
-                    <a href="./produto.html" class="img">
-                        <img src="./dist/img/produto-1.png" alt="">
-                    </a>
-                    <span>Calça</span>
-                    <div class="btnsControl">
-                        <a href="#" class="btnBuy">Adicionar ao Carrinho <i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
-                        <a href="#" class="btnFav"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
-                        <a href="./produto.html" class="btnView"><i class="fa fa-eye" aria-hidden="true"></i></a>
+        <section class="release swiper pdctSwiper">
+            <div class="swiper-wrapper">
+                <div class="productCard swiper-slide">
+                    <div class="productCard__info">
+                        <a href="./produto.html" class="img">
+                            <img src="./dist/img/produto-1.png" alt="">
+                        </a>
+                        <span>Calça</span>
+                        <div class="btnsControl">
+                            <a href="#" class="btnBuy">Adicionar ao Carrinho <i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                            <a href="#" class="btnFav"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+                            <a href="./produto.html" class="btnView"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                        </div>
                     </div>
+                    <h3><a href="./produto.html">Glamourus collection</a></h3>
+                    <p>R$ 129,90</p>
                 </div>
-                <h3><a href="./produto.html">Glamourus collection</a></h3>
-                <p>R$ 129,90</p>
-            </div>
-            <div class="productCard">
-                <div class="productCard__info">
-                    <a href="./produto.html" class="img">
-                        <img src="./dist/img/produto-2.png" alt="">
-                    </a>
-                    <span>Calça</span>
-                    <div class="btnsControl">
-                        <a href="#" class="btnBuy">Adicionar ao Carrinho <i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
-                        <a href="#" class="btnFav"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
-                        <a href="./produto.html" class="btnView"><i class="fa fa-eye" aria-hidden="true"></i></a>
+
+                <div class="productCard swiper-slide">
+                    <div class="productCard__info">
+                        <a href="./produto.html" class="img">
+                            <img src="./dist/img/produto-2.png" alt="">
+                        </a>
+                        <span>Calça</span>
+                        <div class="btnsControl">
+                            <a href="#" class="btnBuy">Adicionar ao Carrinho <i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                            <a href="#" class="btnFav"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+                            <a href="./produto.html" class="btnView"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                        </div>
                     </div>
+                    <h3><a href="./produto.html">Glamourus collection</a></h3>
+                    <p>R$ 129,90</p>
                 </div>
-                <h3><a href="./produto.html">Glamourus collection</a></h3>
-                <p>R$ 129,90</p>
-            </div>
-            <div class="productCard">
-                <div class="productCard__info">
-                    <a href="./produto.html" class="img">
-                        <img src="./dist/img/produto-3.png" alt="">
-                    </a>
-                    <span>Vestido</span>
-                    <div class="btnsControl">
-                        <a href="#" class="btnBuy">Adicionar ao Carrinho <i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
-                        <a href="#" class="btnFav"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
-                        <a href="./produto.html" class="btnView"><i class="fa fa-eye" aria-hidden="true"></i></a>
+
+                <div class="productCard swiper-slide">
+                    <div class="productCard__info">
+                        <a href="./produto.html" class="img">
+                            <img src="./dist/img/produto-3.png" alt="">
+                        </a>
+                        <span>Vestido</span>
+                        <div class="btnsControl">
+                            <a href="#" class="btnBuy">Adicionar ao Carrinho <i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                            <a href="#" class="btnFav"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+                            <a href="./produto.html" class="btnView"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                        </div>
                     </div>
+                    <h3><a href="./produto.html">Glamourus collection</a></h3>
+                    <p>R$ 129,90</p>
                 </div>
-                <h3><a href="./produto.html">Glamourus collection</a></h3>
-                <p>R$ 129,90</p>
-            </div>
-            <div class="productCard">
-                <div class="productCard__info">
-                    <a href="./produto.html" class="img">
-                        <img src="./dist/img/produto-4.png" alt="">
-                    </a>
-                    <span>Blusa</span>
-                    <div class="btnsControl">
-                        <a href="#" class="btnBuy">Adicionar ao Carrinho <i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
-                        <a href="#" class="btnFav"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
-                        <a href="./produto.html" class="btnView"><i class="fa fa-eye" aria-hidden="true"></i></a>
+
+                <div class="productCard swiper-slide">
+                    <div class="productCard__info">
+                        <a href="./produto.html" class="img">
+                            <img src="./dist/img/produto-4.png" alt="">
+                        </a>
+                        <span>Blusa</span>
+                        <div class="btnsControl">
+                            <a href="#" class="btnBuy">Adicionar ao Carrinho <i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                            <a href="#" class="btnFav"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+                            <a href="./produto.html" class="btnView"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                        </div>
                     </div>
+                    <h3><a href="./produto.html">Glamourus collection</a></h3>
+                    <p>R$ 129,90</p>
                 </div>
-                <h3><a href="./produto.html">Glamourus collection</a></h3>
-                <p>R$ 129,90</p>
             </div>
+            <div class="swiper-pagination"></div>
         </section>
 
         <a href="#" class="btn blog__btn">Ver mais</a>
@@ -139,67 +144,73 @@
         <h3 class="title">As mais procuradas do mês</h3>
         <p class="sub-title">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea beatae fugit similique doloribus, reiciendis alias facilis veritatis eum</p>
         
-        <section class="release">
-            <div class="productCard">
-                <div class="productCard__info">
-                    <a href="./produto.html" class="img">
-                        <img src="./dist/img/produto-1.png" alt="">
-                    </a>
-                    <span>Calça</span>
-                    <div class="btnsControl">
-                        <a href="#" class="btnBuy">Adicionar ao Carrinho <i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
-                        <a href="#" class="btnFav"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
-                        <a href="./produto.html" class="btnView"><i class="fa fa-eye" aria-hidden="true"></i></a>
+        <section class="release swiper pdctSwiper">
+            <div class="swiper-wrapper">
+                <div class="productCard swiper-slide">
+                    <div class="productCard__info">
+                        <a href="./produto.html" class="img">
+                            <img src="./dist/img/produto-1.png" alt="">
+                        </a>
+                        <span>Calça</span>
+                        <div class="btnsControl">
+                            <a href="#" class="btnBuy">Adicionar ao Carrinho <i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                            <a href="#" class="btnFav"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+                            <a href="./produto.html" class="btnView"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                        </div>
                     </div>
+                    <h3><a href="./produto.html">Glamourus collection</a></h3>
+                    <p>R$ 129,90</p>
                 </div>
-                <h3><a href="./produto.html">Glamourus collection</a></h3>
-                <p>R$ 129,90</p>
-            </div>
-            <div class="productCard">
-                <div class="productCard__info">
-                    <a href="./produto.html" class="img">
-                        <img src="./dist/img/produto-2.png" alt="">
-                    </a>
-                    <span>Calça</span>
-                    <div class="btnsControl">
-                        <a href="#" class="btnBuy">Adicionar ao Carrinho <i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
-                        <a href="#" class="btnFav"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
-                        <a href="./produto.html" class="btnView"><i class="fa fa-eye" aria-hidden="true"></i></a>
+
+                <div class="productCard swiper-slide">
+                    <div class="productCard__info">
+                        <a href="./produto.html" class="img">
+                            <img src="./dist/img/produto-2.png" alt="">
+                        </a>
+                        <span>Calça</span>
+                        <div class="btnsControl">
+                            <a href="#" class="btnBuy">Adicionar ao Carrinho <i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                            <a href="#" class="btnFav"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+                            <a href="./produto.html" class="btnView"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                        </div>
                     </div>
+                    <h3><a href="./produto.html">Glamourus collection</a></h3>
+                    <p>R$ 129,90</p>
                 </div>
-                <h3><a href="./produto.html">Glamourus collection</a></h3>
-                <p>R$ 129,90</p>
-            </div>
-            <div class="productCard">
-                <div class="productCard__info">
-                    <a href="./produto.html" class="img">
-                        <img src="./dist/img/produto-3.png" alt="">
-                    </a>
-                    <span>Vestido</span>
-                    <div class="btnsControl">
-                        <a href="#" class="btnBuy">Adicionar ao Carrinho <i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
-                        <a href="#" class="btnFav"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
-                        <a href="./produto.html" class="btnView"><i class="fa fa-eye" aria-hidden="true"></i></a>
+
+                <div class="productCard swiper-slide">
+                    <div class="productCard__info">
+                        <a href="./produto.html" class="img">
+                            <img src="./dist/img/produto-3.png" alt="">
+                        </a>
+                        <span>Vestido</span>
+                        <div class="btnsControl">
+                            <a href="#" class="btnBuy">Adicionar ao Carrinho <i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                            <a href="#" class="btnFav"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+                            <a href="./produto.html" class="btnView"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                        </div>
                     </div>
+                    <h3><a href="./produto.html">Glamourus collection</a></h3>
+                    <p>R$ 129,90</p>
                 </div>
-                <h3><a href="./produto.html">Glamourus collection</a></h3>
-                <p>R$ 129,90</p>
-            </div>
-            <div class="productCard">
-                <div class="productCard__info">
-                    <a href="./produto.html" class="img">
-                        <img src="./dist/img/produto-4.png" alt="">
-                    </a>
-                    <span>Blusa</span>
-                    <div class="btnsControl">
-                        <a href="#" class="btnBuy">Adicionar ao Carrinho <i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
-                        <a href="#" class="btnFav"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
-                        <a href="./produto.html" class="btnView"><i class="fa fa-eye" aria-hidden="true"></i></a>
+
+                <div class="productCard swiper-slide">
+                    <div class="productCard__info">
+                        <a href="./produto.html" class="img">
+                            <img src="./dist/img/produto-4.png" alt="">
+                        </a>
+                        <span>Blusa</span>
+                        <div class="btnsControl">
+                            <a href="#" class="btnBuy">Adicionar ao Carrinho <i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                            <a href="#" class="btnFav"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+                            <a href="./produto.html" class="btnView"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                        </div>
                     </div>
+                    <h3><a href="./produto.html">Glamourus collection</a></h3>
+                    <p>R$ 129,90</p>
                 </div>
-                <h3><a href="./produto.html">Glamourus collection</a></h3>
-                <p>R$ 129,90</p>
             </div>
+            <div class="swiper-pagination"></div>
         </section>
 
         <a href="#" class="btn blog__btn">Ver mais</a>
@@ -254,9 +265,9 @@
                     </a>
 
                     <ul>
-                        <li><a href="https://www.facebook.com/moda.flordecacto" target="_blank"><img src="./dist/img/facebook.png" alt=""></a></li>
-                        <li><a href="https://www.instagram.com/moda.flordecacto/" target="_blank"><img src="./dist/img/instagram.png" alt=""></a></li>
-                        <li><a href="https://l.instagram.com/?u=https%3A%2F%2Fwa.me%2F5512974097538&e=AT0Bn2cs1HOB7kw0qCuymT9eR-cwatC0-zsdRS3Py_8Pt8LmlHuSrWgoUS-YzlRZA12rEiLPjWmX4Bgk9sAfRDjAJ-gIBkNHBvaDq9mJz6XzralQwYyWCVk" target="_blank"><img src="./dist/img/whatsapp.png" alt=""></a></li>
+                        <li><a href="https://www.facebook.com/moda.flordecacto" target="_blank"><img src="./dist/img/facebook.png" alt="Ícone Facebook"></a></li>
+                        <li><a href="https://www.instagram.com/moda.flordecacto/" target="_blank"><img src="./dist/img/instagram.png" alt="Ícone Instagram"></a></li>
+                        <li><a href="https://api.whatsapp.com/send/?phone=5512974097538&text&type=phone_number&app_absent=0" target="_blank"><img src="./dist/img/whatsapp.png" alt="Ícone WhatsApp"></a></li>
                     </ul>
                 </div>
                 <div class="ftr__wrap">
@@ -300,5 +311,43 @@
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./dist/js/script.js"></script>
+    <script>
+        let init = false;
+        function swiperProduct() {
+            
+            if (window.innerWidth <= 1200 && !init) {
+                init = true;
+                const swiper = new Swiper(".pdctSwiper", {
+                    slidesPerView: 4,
+                    spaceBetween: 20,
+                    responsive: true,
+                    pagination: {
+                        el: '.swiper-pagination',
+                        clickable: true,
+                        type: 'bullets',
+                    },
+                    breakpoints: {
+                        "@0.00": {
+                            slidesPerView: 1.1,
+                            spaceBetween: 20,
+                        },
+                        767: {
+                            slidesPerView: 2.2,
+                            spaceBetween: 20,
+                        },
+                        1024: {
+                            slidesPerView: 3.2,
+                            spaceBetween: 20,
+                        },
+                    }
+                });
+            }else {
+                swiper.destroy();
+                init = false;
+            }
+            console.log(init)
+        }swiperProduct();
+        window.addEventListener("resize", swiperProduct, true);
+   </script>
   </body>
 </html>
